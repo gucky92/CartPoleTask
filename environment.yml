@@ -1,0 +1,16 @@
+name: scientific
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python
+  - pytorch
+  - jupyterlab
+  - tqdm
+  - ipywidgets
+  - pip
+  - pip:
+    - stable-baselines3[extra]
+    - seaborn
+    - puffbird
